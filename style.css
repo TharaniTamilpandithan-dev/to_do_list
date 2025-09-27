@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imperial+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imperial+Script&display=swap'); */
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url(./image/bg.jpg) no-repeat center center/cover;
+  background: linear-gradient(to right , pink,blue);
   font-family: "Imperial Script", cursive;
 }
 
@@ -215,6 +215,8 @@ body {
 
 .task-buttons .delete-btn {
   background: blue;
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 600px) {
